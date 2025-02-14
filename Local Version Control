@@ -18,10 +18,10 @@ cd../.. #go up two directories
 
 # Setting up Git
 git--help # Git documentaion
-git config--global user.name "Felipe Leite"
-git config--user.email "felipe.nog.leite@gmail.com"
-git config-l # Check settings
-git confir--global init.defaultBranch main # Set default branch to main
+git config --global user.name "Felipe Leite"
+git config --global user.email "felipe.nog.leite@gmail.com"
+git config -l # Check settings
+git confir --global init.defaultBranch main # Set default branch to main
 git branch-m main # Change the current branch to main
 git init #stating git in the current directory
 ls-a #checking the hidden folder called .git
