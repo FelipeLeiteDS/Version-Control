@@ -1,8 +1,8 @@
-#Clone and update the repository with/ new code
+# Clone and update the repository with/ new code
 cd <correct directory>
 git clone git@github.com:FelipeLeiteDS/Version-Control.git	# Cloning repository
 ls	# Checking files
-git branch
+git checkout -b feature/remote-version-control
 touch Remote-Version-Control.txt	# Creating a new file
 ls	# Checking the new file
 notepad Remote-Version-Control.txt	# Update code
