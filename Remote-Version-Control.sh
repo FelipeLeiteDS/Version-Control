@@ -18,7 +18,7 @@ git branch -D feature/remote-version-control # Finish the cicle by deleting the 
 # Update an existing repository
 cd <correct directory>
 git fetch	# update repo keeping secondary branches
-notepad Remote-Version-Control.txt	# Update app
+notepad Remote-Version-Control.txt	# Update application/code
 git status	# Show an untracked file
 git add Remote-Version-Control.txt	# Adding file
 git status	# Show the staged file
