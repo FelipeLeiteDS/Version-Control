@@ -1,14 +1,34 @@
 # Clone and update the repository with/ new code
 cd <correct directory>
 git clone git@github.com:FelipeLeiteDS/Version-Control.git	# Cloning repository
-ls	# Checking files
 git checkout -b feature/remote-version-control
-touch Remote-Version-Control.txt	# Creating a new file
-ls	# Checking the new file
-notepad Remote-Version-Control.txt	# Update code
+ls	# Check files
+notepad Remote-Version-Control.txt	# Update app
 git status	# Show an untracked file
 git add Remote-Version-Control.txt	# Adding file
 git status	# Show the staged file
+git commit -m "Add Remote Version Control code"
+git push origin feature/remote-version-control	# push the update to the remote repo
+# Approve the pull request on GitHub
+# Delete the branch feature/remote-version-control from GitHub
+git checkout main	# Go back to the main branch
+git merge feature/remote-version-control # Merge the feat branch to the main branch
+git branch -D feature/remote-version-control # Finish the cicle by deleting the feat branch
+
+# Update an existing repository
+cd <correct directory>
+git fetch	# update repo keeping secondary branches
+notepad Remote-Version-Control.txt	# Update app
+git status	# Show an untracked file
+git add Remote-Version-Control.txt	# Adding file
+git status	# Show the staged file
+git commit -m "Add Remote Version Control code"
+git push origin feature/remote-version-control	# push the update to the remote repo
+# Approve the pull request on GitHub
+# Delete the branch feature/remote-version-control from GitHub
+git checkout main	# Go back to the main branch
+git merge feature/remote-version-control # Merge the feat branch to the main branch
+git branch -D feature/remote-version-control # Finish the cicle by deleting the feat branch
 
 # Link existing local repository to GitHub
 # Create the Remote repository on GitHub
