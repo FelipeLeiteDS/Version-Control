@@ -1,5 +1,18 @@
 # Git Workflow for Machine Learning Projects
 
+## Table of Contents
+1. [Overview](#overview)
+2. [Key Features](#key-features)
+3. [Workflow Highlights](#workflow-highlights)
+    - [Project Initialization](#project-initialization)
+    - [Feature Development](#feature-development)
+    - [Commit Strategy](#commit-strategy)
+    - [Code Review and Merging](#code-review-and-merging)
+    - [Version Tagging](#version-tagging)
+6. [Real-World Application](#real-world-application)
+7. [Conclusion](#conclusion)
+8. [Portfolio and Contact](#portfolio-and-contact)
+
 ## Overview
 
 This repository demonstrates my proficiency in using Git for version control in machine learning projects. It showcases a practical workflow I've developed and implemented in real-world scenarios, emphasizing best practices for collaborative development and project management.
@@ -13,7 +26,7 @@ This repository demonstrates my proficiency in using Git for version control in 
 
 ## Workflow Highlights
 
-### 1. Project Initialization
+### Project Initialization
 
 I begin each project by setting up a clean Git repository:
 
@@ -27,7 +40,7 @@ git config --global user.email "felipe.nog.leite@gmail.com"
 
 This ensures a consistent starting point across all team members.
 
-### 2. Feature Development
+### Feature Development
 
 For each new feature or model iteration, I create a dedicated branch:
 
@@ -37,7 +50,7 @@ git checkout -b feat/new_model
 
 This allows for isolated development without affecting the main codebase.
 
-### 3. Commit Strategy
+### Commit Strategy
 
 I use clear, descriptive commit messages to document progress:
 
@@ -47,7 +60,7 @@ git commit -m "Implement initial data preprocessing pipeline"
 
 This practice maintains a comprehensible project history, crucial for long-term maintenance and collaboration.
 
-### 4. Code Review and Merging
+### Code Review and Merging
 
 After feature completion, I merge changes back to the main branch:
 
@@ -58,7 +71,7 @@ git merge feat/new_model
 
 This step often involves code review, ensuring quality and knowledge sharing within the team.
 
-### 5. Version Tagging
+### Version Tagging
 
 For significant milestones or releases, I use Git tags:
 
@@ -80,3 +93,12 @@ In my projects, this workflow has proven invaluable for:
 ## Conclusion
 
 This Git workflow has been a cornerstone in my ML projects, enabling efficient collaboration, version control, and project management. It demonstrates my ability to integrate software development best practices with machine learning workflows, a critical skill in modern data science projects.
+
+## Portfolio and Contact
+- Explore my work and connect with me:
+
+<div> 
+  <a href = "https://linktr.ee/FelipeLeiteDS"><img src="https://img.shields.io/badge/LinkTree-1de9b6?logo=linktree&logoColor=white" target="_blank"></a>
+  <a href = "https://www.linkedin.com/in/felipeleiteds/" target="_blank"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff" target="_blank"></a> 
+  <a href = "https://www.felipeleite.ca"><img src="https://img.shields.io/badge/FelipeLeite.ca-%23000000.svg?logo=wix&logoColor=white" target="_blank"></a>
+  <a href = "mailto:felipe.nog.leite@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" target="_blank"></a>
