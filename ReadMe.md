@@ -95,7 +95,7 @@ In my projects, this workflow has proven invaluable for:
 This Git workflow has been a cornerstone in my ML projects, enabling efficient collaboration, version control, and project management. It demonstrates my ability to integrate software development best practices with machine learning workflows, a critical skill in modern data science projects.
 
 ## Portfolio and Contact
-- Explore my work and connect with me:
+Explore my work and connect with me:
 
 <div> 
   <a href = "https://linktr.ee/FelipeLeiteDS"><img src="https://img.shields.io/badge/LinkTree-1de9b6?logo=linktree&logoColor=white" target="_blank"></a>
